@@ -1,4 +1,4 @@
-# Participation: Awk — grep, sed, and awk
+# Participation: Awk - grep, sed, and awk
 
 ## Log File (`server.log`)
 
