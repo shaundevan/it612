@@ -47,7 +47,7 @@ Write-Host "`n=== Part 3: Structured Data ==="
 ]
 '@ | Set-Content students.json
 
-$students = Get-Content students.json | ConvertFrom-Json
+$students = Get-Content students.json -Raw | ConvertFrom-Json
 
 Write-Host "`n=== Task 4: First record + dot access ==="
 $students[0]
